@@ -6,7 +6,7 @@
     "tools": "Adobe Illustrator, Adobe Photoshop",
     "createdFor": "Identity and Symbols",
     "description": "Branding for a fictional record store coffee shop.",
-    "thumbnail": "path/to/thumbnail",
+    "thumbnail": "./src/assets/analounge-thumbnail.jpg",
     "highResImages": ["path/to/hiResImage/1", "path/to/highResImage/2", "path/to/highResImage/3"]
   },
   {
@@ -16,7 +16,7 @@
     "tools": "Procreate, Adobe Illustrator",
     "createdFor": "Text and Image",
     "description": "6 movie title card stills for Iron Man.",
-    "thumbnail": "path/to/thumbnail",
+    "thumbnail": "./src/assets/title-cards-thumbnail.jpg",
     "highResImages": ["path/to/hiResImage/1", "path/to/highResImage/2", "path/to/highResImage/3"]
   },
   {
@@ -26,7 +26,7 @@
     "tools": "Adobe Illustrator, Adobe Photoshop, Adobe InDesign",
     "createdFor": "Typography",
     "description": "A vinyl album redesign for Wiped Out! by The Neighbourhood using only typography.",
-    "thumbnail": "path/to/thumbnail",
+    "thumbnail": "./src/assets/vinyl-thumbnail.jpg",
     "highResImages": ["path/to/hiResImage/1", "path/to/highResImage/2", "path/to/highResImage/3"]
   },
   {
@@ -36,7 +36,7 @@
     "tools": "Procreate, Adobe Illustrator",
     "createdFor": "Packaging and Display",
     "description": "Label designs for 3 different SKU's of a fictional product.",
-    "thumbnail": "path/to/thumbnail",
+    "thumbnail": "./src/assets/buna-thumbnail.jpg",
     "highResImages": ["path/to/hiResImage/1", "path/to/highResImage/2", "path/to/highResImage/3"]
   },
   {
@@ -46,7 +46,7 @@
     "tools": "Adobe Photoshop, Adobe Illustrator",
     "createdFor": "Design and its Discontents",
     "description": "A redesign of PVRIS's evergreen branding including the album cover, poster, and two concert t-shirts.",
-    "thumbnail": "path/to/thumbnail",
+    "thumbnail": "./src/assets/pvris-thumbnail.jpg",
     "highResImages": ["path/to/hiResImage/1", "path/to/highResImage/2", "path/to/highResImage/3"]
   }
 ]
