@@ -29,7 +29,7 @@ body {
   }
 
   .content {
-    background-color: #fff;
+    background-color:  #fff;
     color: black;
     padding: 10px;
     border-radius: 10px;

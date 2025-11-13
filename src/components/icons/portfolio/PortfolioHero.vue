@@ -20,7 +20,7 @@ const props = defineProps({
 
 <style scoped>
 .hero {
-  border: 1px solid black;
+  border: 1px solid #112336;
 
   border-radius: 15px;
   min-height: 200px;
@@ -29,6 +29,7 @@ const props = defineProps({
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  flex-grow: 1;
 
   &:hover {
     background-color: black;

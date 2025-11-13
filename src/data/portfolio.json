@@ -48,5 +48,15 @@
     "description": "A redesign of PVRIS's evergreen branding including the album cover, poster, and two concert t-shirts.",
     "thumbnail": "./src/assets/pvris-thumbnail.jpg",
     "highResImages": ["path/to/hiResImage/1", "path/to/highResImage/2", "path/to/highResImage/3"]
+  },
+  {
+    "id": 6,
+    "title": "Genero",
+    "dateCreated": 2025,
+    "tools": "Acrylic Paint, Adobe Illustrator, Adobe Photoshop",
+    "createdFor": "Packaging and Display",
+    "description": "3 SKUs for a fictional soap brand.",
+    "thumbnail": "./src/assets/genero-thumbnail.jpg",
+    "highResImages": ["path/to/hiResImage/1", "path/to/highResImage/2", "path/to/highResImage/3"]
   }
 ]

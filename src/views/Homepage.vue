@@ -1,6 +1,7 @@
 <script setup>
 import portfolioData from '@/data/portfolio.json'
 import PortfolioHero from '@/components/icons/portfolio/PortfolioHero.vue'
+import HeroContainer from '@/components/icons/portfolio/HeroContainer.vue'
 </script>
 
 <template>
@@ -16,7 +17,7 @@ div.all-items {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  border: 1px dashed black;
+  justify-content: space-evenly;
 
 }
 </style>

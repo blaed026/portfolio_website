@@ -3,12 +3,14 @@
 
 <template>
   <div class="container">
-    <div class="logo"></div>
+    <div class="logo">
+      <img src="../assets/name-draft.png" alt="Alex Blaede"/>
+    </div>
 
     <div class="links">
-      <router-link :to="{ name: 'home' }">Home</router-link>
-      <router-link :to="{ name: 'about-me' }">About Me</router-link>
-      <router-link :to="{ name: 'contact-me' }">Contact Me</router-link>
+      <router-link :to="{ name: 'home' }">Portfolio</router-link>
+      <router-link :to="{ name: 'about-me' }">About</router-link>
+      <router-link :to="{ name: 'contact-me' }">Contact</router-link>
     </div>
   </div>
 </template>
@@ -20,20 +22,18 @@ div.container {
   gap: 40px;
   align-items: center;
   background-color: #112336;
-  padding-top: 30px;
+  padding-top: 20px;
 
-  div.logo {
-    height: 200px;
-    width: 200px;
-    background-color: #375f8a;
-    border-radius: 100px;
-  }
+    img {
+      padding-top: 10px;
+      width: 350px; /* adjust this */
+      height: auto; /* keeps proportions */
+    }
 
   div.links {
     display: flex;
     font-size: 25px;
     gap: 30px;
-    align-content: center;
     padding: 0 0 30px 0;
 
 
