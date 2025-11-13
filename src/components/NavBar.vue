@@ -4,7 +4,7 @@
 <template>
   <div class="container">
     <div class="logo">
-      <img src="../assets/name-draft.png" alt="Alex Blaede"/>
+      <img src="../assets/name-draft.png" alt="Alex Blaede" />
     </div>
 
     <div class="links">
@@ -18,41 +18,38 @@
 <style scoped>
 div.container {
   display: flex;
-  flex-direction: column;
-  gap: 40px;
-  align-items: center;
+  justify-content: space-between; /* pushes logo left, links right */
+  align-items: center; /* vertically centers both */
   background-color: #112336;
-  padding-top: 20px;
+  padding: 20px 40px;
 
-    img {
-      padding-top: 10px;
-      width: 350px; /* adjust this */
-      height: auto; /* keeps proportions */
+  img {
+    width: 300px;
+    height: auto;
+  }
+}
+
+
+div.links {
+  display: flex;
+  font-size: 25px;
+  gap: 30px;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #375f8a;
+    border-radius: 12px;
+
+    &:hover {
+      //background-color: white;
+      color: #96b2e0;
     }
 
-  div.links {
-    display: flex;
-    font-size: 25px;
-    gap: 30px;
-    padding: 0 0 30px 0;
-
-
-    a {
-      color: #fff;
-      text-decoration: none;
-      padding: 10px;
-      background-color: #375f8a;
-      border-radius: 12px;
-
-      &:hover {
-        //background-color: white;
-        color: #96b2e0;
-      }
-
-      @media (width > 600px) {
-        /*overrides flex-direction column on div.links*/
-        flex-direction: row;
-      }
+    @media (width > 600px) {
+      /*overrides flex-direction column on div.links*/
+      flex-direction: row;
     }
   }
 }
