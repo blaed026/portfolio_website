@@ -9,7 +9,7 @@
 
     <div class="links">
       <router-link :to="{ name: 'home' }">Portfolio</router-link>
-      <router-link :to="{ name: 'about-me' }">About</router-link>
+      <router-link :to="{ name: 'about-me' }">About Me</router-link>
       <router-link :to="{ name: 'contact-me' }">Contact</router-link>
     </div>
   </div>
@@ -29,7 +29,6 @@ div.container {
   }
 }
 
-
 div.links {
   display: flex;
   font-size: 25px;
@@ -43,13 +42,20 @@ div.links {
     border-radius: 12px;
 
     &:hover {
-      //background-color: white;
       color: #96b2e0;
     }
+  }
+}
+@media (max-width: 800px) {
+  div.container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 
-    @media (width > 600px) {
-      /*overrides flex-direction column on div.links*/
+    div.links {
       flex-direction: row;
+      align-items: center;
+      gap: 15px;
     }
   }
 }

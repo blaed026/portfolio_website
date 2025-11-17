@@ -21,8 +21,8 @@ const props = defineProps({
 <style scoped>
 .hero {
   border: 1px solid #112336;
-
   border-radius: 15px;
+  overflow: hidden;
   min-height: 200px;
   width: 450px;
   background-size: cover;
@@ -41,7 +41,8 @@ const props = defineProps({
   .opaque-footer {
     background-color: #112336;
     padding: 16px;
-    text-transform: uppercase;
+    font-size: 20px;
+    //text-transform: uppercase;
     border-radius: 0 0 15px 15px;
     color: white;
 

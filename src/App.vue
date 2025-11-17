@@ -12,7 +12,7 @@ import NavBar from '@/components/NavBar.vue'
       <router-view />
     </section>
 
-    <footer>made by alex</footer>
+    <footer>Made by Alex 2025</footer>
   </section>
 </template>
 
@@ -24,12 +24,11 @@ body {
     gap: 10px;
 
     > * {
-      border: 1px solid black;
+      //border: 1px solid black;
     }
   }
 
   .content {
-    background-color:  #fff;
     color: black;
     padding: 10px;
     border-radius: 10px;
@@ -48,7 +47,6 @@ body {
   footer {
     text-align: center;
     padding: 10px;
-    background-color: #fff;
   }
 }
 </style>
