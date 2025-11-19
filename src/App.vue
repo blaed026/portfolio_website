@@ -1,5 +1,6 @@
 <script setup>
 import NavBar from '@/components/NavBar.vue'
+import Footer from '@/components/Footer.vue'
 </script>
 
 <template>
@@ -12,7 +13,9 @@ import NavBar from '@/components/NavBar.vue'
       <router-view />
     </section>
 
-    <footer>Made by Alex 2025</footer>
+    <footer>
+      <Footer />
+    </footer>
   </section>
 </template>
 
@@ -43,10 +46,6 @@ body {
       }
     }
   }
-
-  footer {
-    text-align: center;
-    padding: 10px;
-  }
+  
 }
 </style>
