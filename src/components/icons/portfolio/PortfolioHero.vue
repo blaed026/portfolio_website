@@ -2,19 +2,28 @@
 const props = defineProps({
   thumbnail: {
     type: String,
-    required: true,
+    required: true
   },
   title: {
     type: String,
-    required: true,
+    required: true
   },
+  id: {
+    type: Number,
+    required: true
+  }
 })
 </script>
 
 <template>
   <div class="hero">
     <img :src="props.thumbnail" />
-    <div class="opaque-footer">{{ props.title }}</div>
+    <div class="opaque-footer">
+      <div class="title">{{ props.title }}</div>
+      <router-link
+        :to="{ name: 'PortfolioItemDetails', params: { portfolioId: props.id } }">
+      </router-link>
+    </div>
   </div>
 </template>
 
@@ -41,6 +50,13 @@ const props = defineProps({
     padding: 16px;
     font-size: 20px;
     color: white;
+    display: flex;
+    justify-content: space-between;
+
+    a {
+      color: white;
+      text-transform: uppercase;
     }
   }
+}
 </style>

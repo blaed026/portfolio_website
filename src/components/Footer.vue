@@ -5,7 +5,7 @@
 <template>
   <div class="container">
     <div class="logo">
-      <p>Made by Alex Blaede, 2025</p>
+      <p>Made by Alex Blaede | 2025</p>
     </div>
 
     <div class="links">
