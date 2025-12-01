@@ -7,8 +7,7 @@ import PortfolioHero from '@/components/icons/portfolio/PortfolioHero.vue'
 <template>
   <div class="all-items">
     <portfolio-hero v-for="item in portfolioData" :key="item.id"
-      :thumbnail="item.thumbnail" :title="item.title" :id="item.id"
-    />
+      :thumbnail="item.thumbnail" :title="item.title" :id="item.id"/>
 
     <router-link :to="{ name: 'PortfolioItemDetails', params: { portfolioId: item.id }}" v-for="item in portfolioData" :key="item.id">
       <portfolio-hero :thumbnail="item.thumbnail" :title="item.title" :id="item.id"/>

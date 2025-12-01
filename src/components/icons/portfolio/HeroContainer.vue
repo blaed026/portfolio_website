@@ -19,4 +19,10 @@ const props = defineProps({
                   :thumbnail="item.thumbnail" :title="item.title"/>
 </template>
 
-<style scoped></style>
+<style scoped>
+a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+</style>

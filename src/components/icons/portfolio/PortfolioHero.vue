@@ -56,6 +56,7 @@ const props = defineProps({
     a {
       color: white;
       text-transform: uppercase;
+      text-decoration: none;
     }
   }
 }
