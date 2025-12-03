@@ -2,26 +2,85 @@
 </script>
 
 <template>
-  <div class="text">
-    <h1>Lets stay in touch!</h1>
-    <h3>
-      Send a message here, whether you just want to say hello or would like to further discuss any
-      items in my portfolio.
-    </h3>
+  <div class="contact-container">
+    <div>
+      <h1 class="headline">Lets stay in touch!</h1>
+      <h3 class="text">
+        Send a message here, whether you just want to say hello or would like to further discuss any
+        items in my portfolio.
+      </h3>
+    </div>
+
+    <form class="form">
+      <div class="input">
+        <label for="name">Name</label>
+        <input class="box" type="text" id="name" name="name" placeholder="Name" />
+      </div>
+      <div class="input">
+        <label for="email">Email</label>
+        <input class="box" type="text" id="email" name="email" placeholder="example@email.com" />
+      </div>
+      <div class="input">
+        <label for="subject">Subject</label>
+        <textarea class="box" id="subject" name="subject" placeholder="Message"></textarea>
+      </div>
+
+      <div class="submit-button">
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
   </div>
-
-  <form action="action_page.php" class="form">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="First Name" />
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Last Name" />
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Message"></textarea>
-
-    <input type="submit" value="Submit" />
-  </form>
 </template>
 
-<style scoped></style>
+<style scoped>
+.headline {
+  color: #375f8a;
+}
+.text {
+  max-width: 475px;
+}
+
+div.input {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 400px;
+  font-size: 18px;
+  border-radius: 3px;
+
+  input {
+    background-color: white;
+    font-size: 18px;
+    padding: 5px 5px 5px 10px;
+    border-radius: 5px;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  textarea {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: white;
+    padding-left: 5px;
+    font-size: 18px;
+  }
+}
+
+div.input {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  min-width: 400px;
+
+  label {
+    align-self: flex-start;
+    padding: 10px 0 2px 0;
+    color: #375f8a;
+  }
+}
+.submit-button {
+  max-width: 200px;
+  color: #375f8a;
+}
+</style>

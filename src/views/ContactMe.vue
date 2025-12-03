@@ -7,34 +7,44 @@ import ContactForm from '@/components/ContactForm.vue'
     <div class="image">
       <img src="../assets/placeholder-image.png" alt="placeholder for image" />
     </div>
-    <contactForm />
+
+    <div class="form-container">
+      <contactForm />
+    </div>
   </div>
 </template>
 
 <style scoped>
 .container {
   display: flex;
+  justify-content: space-between;
   align-items: flex-start;
-  gap: 30px; /* space between image & text */
+  margin: 0 30px 0 30px;
+  gap: 30px; /* space between image & form */
 
-  .text {
-    text-align: left;
-    margin-right: 30px;
-  }
   img {
-    min-height: 200px;
-    width: 450px;
+    min-width: 400px;
+    width: 35vw;
+    flex-grow: 1;
+
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     flex-grow: 1;
   }
-  .form {
 
-  }
 }
-@media (max-width: 1000px) {
+
+@media (max-width: 975px) {
   .container {
+    display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+
   }
 }
 img {
@@ -43,8 +53,4 @@ img {
   min-height: 150px;
 }
 
-.text {
-  text-align: center;
-  margin: 0px 20px 0px 20px;
-}
 </style>
