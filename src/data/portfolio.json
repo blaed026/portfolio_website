@@ -3,60 +3,54 @@
     "id": 1,
     "title": "The Analounge",
     "dateCreated": 2025,
-    "tools": "Adobe Illustrator and Adobe Photoshop",
-    "createdFor": "Identity and Symbols",
+    "tools": "Adobe Illustrator and Adobe Photoshop.",
     "description": "For this project, we were asked to design the branding for a fictional business over the course of 6 weeks. We were required to have a style sheet and 3 collateral pieces, but had free rein on the business and branding itself. I chose to do the branding for a record store cafe named The Analounge, which comes from combining “Analog” with “Lounge”. My target audience was primarily people aged 20-40, but was open and welcoming to anyone. ",
     "thumbnail": "analounge-thumbnail.jpg",
-    "highResImages": ["path/to/hiResImage/1", "path/to/highResImage/2", "path/to/highResImage/3"]
+    "additionalImages": ["style-sheet.jpg", "analounge-collaterals.jpg"]
   },
   {
     "id": 2,
     "title": "Wanderers Coffee",
     "dateCreated": 2025,
-    "tools": "Adobe Illustrator",
-    "createdFor": "Packaging and Display",
+    "tools": "Adobe Illustrator.",
     "description": "Wanderers is a fictional coffee brand based in Minnesota. For this project, we were tasked with designing a POP (point of purchase) display with at least 5 items inside. I chose to do 3 different SKUs for the same item: whole coffee beans, K-Cup pods, and instant coffee. The packaging was inspired by the northern lights, meant to be bold and modern while still maintaining an up-north feel. ",
     "thumbnail": "wanderers-thumbnail.jpg",
-    "highResImages": ["wanderers-stand.jpg", "wanderers-products.jpg"]
+    "additionalImages": ["wanderers-stand.jpg", "wanderers-products.jpg"]
   },
   {
     "id": 3,
     "title": "she's green Album Designs ",
     "dateCreated": 2024,
-    "tools": "Watercolor Paint, Adobe Photoshop, Adobe Illustrator, and Adobe InDesign",
-    "createdFor": "Typography",
+    "tools": "Watercolor Paint, Adobe Photoshop, Adobe Illustrator, and Adobe InDesign.",
     "description": "she’s green is a small band based out of Minneapolis. In my history of graphic design class, our final project was to redesign 2 album covers, movie posters, or book covers by the same artist/producer based on a style and artist we went over in class. I chose to base my albums on Alphonse Mucha’s work from the Art Nouveau period. To achieve this, I hand-painted all the elements in watercolor and scanned them into Photoshop. Chrysalis was loosely based on Mucha’s “The Flowers: Lily,” while Wisteria was based on “Zodiaque La Plume” and “The Precious Stones: Ruby”. The typography was also inspired by the typefaces Mucha used throughout various works.",
     "thumbnail": "wisteria.jpg",
-    "highResImages": ["vinyl-fronts.jpg", "vinyl-backs.jpg"]
+    "additionalImages": ["vinyl-fronts.jpg", "vinyl-backs.jpg"]
   },
   {
     "id": 4,
     "title": "PVRIS Evergreen Redesign",
     "dateCreated": 2025,
-    "tools": "Adobe Photoshop and Illustrator",
-    "createdFor": "Design and its Discontents",
+    "tools": "Adobe Photoshop and Illustrator.",
     "description": "PVRIS is one of my favorite bands, so I decided to redesign their most recent album along with some merch. This project was a final for my design and its discontents class, where we had free rein over what we did. I have a passion for music and music design, which is why I chose this topic. I redesigned the album, as well as two concert t-shirts and a poster for PVRIS. The main reason for the redesign is that I felt the Evergreen album cover looked out of place next to her other albums, so I wanted to tie it in more and make it more interesting.",
     "thumbnail": "pvris-thumbnail.jpg",
-    "highResImages": ["path/to/hiResImage/1", "path/to/highResImage/2", "path/to/highResImage/3"]
+    "additionalImages": ["evergreen-album.jpg", "evergreen-collaterals.jpg"]
   },
   {
     "id": 5,
     "title": "Iron Man Title Cards",
     "dateCreated": 2025,
-    "tools": "Procreate, Adobe Illustrator",
-    "createdFor": "Text and Image",
+    "tools": "Procreate, Adobe Illustrator.",
     "description": "One of my favorite movies when I was a kid was Iron Man. In my text and image class sophomore year, our assignment was to design 6 title cards for a movie: a title card, production studios, main actor, supporting actors, ending card, and a credits card. I made a custom display typeface to look sturdy but sharp, much like the suit in the film. For the color scheme, I used red as the main color to represent Tony, purple to represent the supporting characters, and blue to represent the piece of machinery that keeps him alive and powers his journey. The order of the color scheme throughout the cards is meant to represent his journey through the film.",
     "thumbnail": "title-cards-thumbnail.jpg",
-    "highResImages": ["path/to/hiResImage/1", "path/to/highResImage/2", "path/to/highResImage/3"]
+    "additionalImages": ["path/to/hiResImage/1", "path/to/highResImage/2", "path/to/highResImage/3"]
   },
   {
     "id": 6,
     "title": "Genero",
     "dateCreated": 2025,
-    "tools": "Acrylic Paint, Adobe Illustrator, and Adobe Photoshop",
-    "createdFor": "Packaging and Display",
+    "tools": "Acrylic Paint, Adobe Illustrator, and Adobe Photoshop.",
     "description": "In my packaging and display class, we were tasked with designing 3 different SKUs for a fictional company named Genero. The only constraint besides the name is that the products had to vary in size and shape from each other. I chose to make Genero into a middle to upper-price soap brand featuring laundry detergent, body wash, and hand soap. I painted the package art in acrylic paint, then scanned it into Photoshop, where I cleaned it up and put it into Illustrator. I wanted to keep the packaging clean and simple, choosing a white background with bright colored text.",
     "thumbnail": "genero-thumbnail.jpg",
-    "highResImages": ["path/to/hiResImage/1", "path/to/highResImage/2", "path/to/highResImage/3"]
+    "additionalImages": ["genero-fronts.jpg", "genero-backs.jpg"]
   }
 ]
