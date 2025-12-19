@@ -17,12 +17,9 @@ const props = defineProps({
 
 <template>
   <div class="hero">
-    <img :src="props.thumbnail" />
+    <img :src="'../src/assets/' + props.thumbnail" />
     <div class="opaque-footer">
       <div class="title">{{ props.title }}</div>
-      <router-link
-        :to="{ name: 'PortfolioItemDetails', params: { portfolioId: props.id } }">
-      </router-link>
     </div>
   </div>
 </template>

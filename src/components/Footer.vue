@@ -9,8 +9,8 @@
     </div>
 
     <div class="links">
-      <a href="http://www.linkedin.com/in/alex-blaede"><img src="../assets/email-logo.png"</a>
-      <a href="http://www.linkedin.com/in/alex-blaede"><img src="../assets/linkdin-logo.png"</a>
+      <a href="http://www.linkedin.com/in/alex-blaede"><img src="../assets/email-logo.png"/></a>
+      <a href="http://www.linkedin.com/in/alex-blaede"><img src="../assets/linkdin-logo.png"/></a>
     </div>
   </div>
 </template>

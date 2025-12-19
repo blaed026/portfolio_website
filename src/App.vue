@@ -25,6 +25,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    min-height: 100vh;
+    justify-content: space-between;
 
     > * {
       //border: 1px solid black;
@@ -46,6 +48,6 @@ body {
       }
     }
   }
-  
+
 }
 </style>

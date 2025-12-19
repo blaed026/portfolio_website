@@ -1,10 +1,9 @@
-<script setup>
-</script>
+<script setup></script>
 
 <template>
   <div class="container">
     <div class="image">
-      <img src="../assets/placeholder-image.png" alt="placeholder for image" />
+      <img src="../assets/about-me.jpg" alt="image of me" />
     </div>
 
     <div class="text">
@@ -40,34 +39,38 @@
 .container {
   display: flex;
   align-items: flex-start;
-  gap: 30px; /* space between image & text */
+  gap: 40px; /* space between image & text */
 
   .text {
     text-align: left;
-    margin-right: 30px;
+    margin-right: 40px;
+
+    h1, h2 {
+      color: #375f8a;
+      text-align: left;
+    }
   }
   img {
-    min-height: 200px;
+    max-width: 500px;
     width: 450px;
     flex-grow: 1;
+    border-radius: 10px;
   }
 }
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   .container {
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
 }
-img {
-  display: flex;
-  justify-content: center;
-  min-height: 150px;
-
-}
 
 .text {
   text-align: center;
   margin: 0px 20px 0px 20px;
+
+  h1, h2 {
+  text-align: center;
+  }
 }
 </style>

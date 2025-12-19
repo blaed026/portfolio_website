@@ -44,7 +44,8 @@ div.input {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  min-width: 400px;
+  width: 100%;
+  max-width: 650px;
   font-size: 18px;
   border-radius: 3px;
 
@@ -53,6 +54,7 @@ div.input {
     font-size: 18px;
     padding: 5px 5px 5px 10px;
     border-radius: 5px;
+    width: 100%; /* ➕ added */
   }
 
   label {
@@ -60,27 +62,31 @@ div.input {
   }
 
   textarea {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: white;
     padding-left: 5px;
     font-size: 18px;
+    width: 100%;
   }
 }
-
-div.input {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  min-width: 400px;
-
   label {
     align-self: flex-start;
     padding: 10px 0 2px 0;
     color: #375f8a;
   }
-}
 .submit-button {
-  max-width: 200px;
+  min-width: 200px;
   color: #375f8a;
+  margin-top: 20px;
+}
+
+@media (max-width: 800px) {
+
+  div.input {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    min-width: 400px;
+  }
 }
 </style>
