@@ -4,6 +4,7 @@ import AboutMe from '@/views/AboutMe.vue'
 import ContactMe from '@/views/ContactMe.vue'
 import AllItems from '@/views/AllItems.vue';
 import PortfolioItemDetails from '@/views/PortfolioItemDetails.vue'
+import ThankYou from '@/views/ThankYou.vue'
 
 const routes = [
   {
@@ -20,6 +21,11 @@ const routes = [
     path: '/contact-me',
     name: 'contact-me',
     component: ContactMe,
+  },
+  {
+    path: '/thank-you',
+    name: 'thank-you',
+    component: ThankYou,
   },
   {
     path: '/examples/portfolio',
